@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Try It Yourself</title>
+</head>
+<body>
+  
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order a Cake</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: mistyrose;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: pink;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    section {
+      padding: 30px;
+      background-color: white;
+      max-width: 600px;
+      margin: 30px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px lightgray;
+    }
+    h1, h2 {
+      color: deeppink;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+    }
+    button {
+      background-color: deeppink;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: hotpink;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎂 Sweet Treats Bakery</h1>
+    <p>Place your cake order below!</p>
+  </header>
+
+  <section>
+    <h2>Order Form</h2>
+    <form>
+      <label for="type">Cake Type</label>
+      <select id="type" name="type">
+        <option>Chocolate</option>
+        <option>Vanilla</option>
+        <option>Red Velvet</option>
+        <option>Strawberry</option>
+      </select>
+
+      <label for="size">Size</label>
+      <select id="size" name="size">
+        <option>Small (6")</option>
+        <option>Medium (8")</option>
+        <option>Large (10")</option>
+      </select>
+
+      <label for="message">Custom Message</label>
+      <input type="text" id="message" name="message" placeholder="e.g., Happy Birthday Emma!">
+
+      <label for="date">Delivery Date</label>
+      <input type="date" id="date" name="date">
+
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name">
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone">
+
+      <label for="address">Delivery Address</label>
+      <textarea id="address" name="address" rows="3"></textarea>
+
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sweet Treats Bakery | Call us: 123-456-CAKE</p>
+  </footer>
+
+</body>
+</html>
